@@ -1,3 +1,27 @@
+/*
+{
+  "name": "Chat",
+  "description": "Connect and chat with other users in the world",
+  "version": "1.0.0",
+  "author": "Hyperfy",
+  "icon": "💬",
+  "category": "Communication",
+  "permissions": [
+    "network",
+    "storage",
+    "notifications"
+  ],
+  "dependencies": {
+    "@firebolt-dev/css": "^1.0.0"
+  },
+  "minOSVersion": "1.0.0",
+  "supportedDevices": ["all"],
+  "apiEndpoints": [
+    "wss://chat.hyperfy.io",
+    "https://api.hyperfy.io/chat"
+  ]
+}
+*/
 import { css } from '@firebolt-dev/css'
 import { useState, useEffect, useRef } from 'react'
 

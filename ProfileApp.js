@@ -1,3 +1,28 @@
+/*
+{
+  "name": "Profile",
+  "description": "View and manage your Hyperfy profile",
+  "version": "1.0.0",
+  "author": "Hyperfy",
+  "icon": "👤",
+  "category": "Social",
+  "permissions": [
+    "storage",
+    "network",
+    "camera",
+    "user.profile"
+  ],
+  "dependencies": {
+    "@firebolt-dev/css": "^1.0.0"
+  },
+  "minOSVersion": "1.0.0",
+  "supportedDevices": ["all"],
+  "apiEndpoints": [
+    "https://api.hyperfy.io/profile",
+    "https://api.hyperfy.io/avatar"
+  ]
+}
+*/
 import { css } from '@firebolt-dev/css'
 import { useState } from 'react'
 

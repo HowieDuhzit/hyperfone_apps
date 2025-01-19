@@ -1,3 +1,32 @@
+/*
+{
+  "name": "Wallet",
+  "description": "Manage your crypto wallet and assets",
+  "version": "1.0.0",
+  "author": "Hyperfy",
+  "icon": "💰",
+  "category": "Finance",
+  "permissions": [
+    "storage",
+    "network",
+    "wallet.read",
+    "wallet.write",
+    "wallet.sign"
+  ],
+  "dependencies": {
+    "@firebolt-dev/css": "^1.0.0",
+    "@solana/web3.js": "^1.0.0"
+  },
+  "minOSVersion": "1.0.0",
+  "supportedDevices": ["all"],
+  "apiEndpoints": [
+    "https://api.hyperfy.io/wallet",
+    "https://api.solana.com"
+  ],
+  "securityLevel": "high",
+  "encryptionRequired": true
+}
+*/
 import { css } from '@firebolt-dev/css'
 import { useState, useEffect } from 'react'
 

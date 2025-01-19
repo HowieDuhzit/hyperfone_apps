@@ -1,3 +1,27 @@
+/*
+{
+  "name": "Inventory",
+  "description": "View and manage your virtual items and collectibles",
+  "version": "1.0.0",
+  "author": "Hyperfy",
+  "icon": "🎒",
+  "category": "Utility",
+  "permissions": [
+    "storage",
+    "network",
+    "world.inventory"
+  ],
+  "dependencies": {
+    "@firebolt-dev/css": "^1.0.0"
+  },
+  "minOSVersion": "1.0.0",
+  "supportedDevices": ["all"],
+  "apiEndpoints": [
+    "https://api.hyperfy.io/inventory",
+    "https://api.hyperfy.io/items"
+  ]
+}
+*/
 import { css } from '@firebolt-dev/css'
 import { useState } from 'react'
 
